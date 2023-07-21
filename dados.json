@@ -2,23 +2,23 @@
     "Cliente": [{
         "id_cliente": 100,
         "nome_cliente": "Ana",
-        "endereco_cliente":"dev de sistemas",
-        "email_cliente":"dev de sistemas",
+        "endereco_cliente":"Rua das acacias 1529",
+        "email_cliente":"ana@gmail.com",
         "telefone_cliente": 51996334572
        
     },
     {
         "id_cliente": 101,
         "nome_cliente": "João",
-        "endereco_cliente":"dev de sistemas",
-        "email_cliente":"dev de sistemas",
-        "telefone_cliente": 51996334572
+        "endereco_cliente":"Rua de pedra 52",
+        "email_cliente":"joao@gmail.com",
+        "telefone_cliente": 51996378948
     },
     {
         "id_cliente": 102,
         "nome_cliente": "Maria",
-        "endereco_cliente":"dev de sistemas",
-        "email_cliente":"dev de sistemas",
+        "endereco_cliente":"rua unisinos 415",
+        "email_cliente":"maria@gmail.com",
         "telefone_cliente": 51986335476
     }],
 

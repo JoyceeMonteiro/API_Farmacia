@@ -1,156 +1,89 @@
 {
-    "Cliente": [{
-        "id_cliente": 100,
-        "nome_cliente": "Ana",
-        "endereco_cliente":"Rua das acacias 1529",
-        "email_cliente":"ana@gmail.com",
-        "telefone_cliente": 51996334572
-       
+  "Cliente": [
+    {
+      "id_cliente": 101,
+      "nome_cliente": "João",
+      "endereco_cliente": "Rua de pedra 52",
+      "email_cliente": "joao@gmail.com",
+      "telefone_cliente": 51996378948
     },
     {
-        "id_cliente": 101,
-        "nome_cliente": "João",
-        "endereco_cliente":"Rua de pedra 52",
-        "email_cliente":"joao@gmail.com",
-        "telefone_cliente": 51996378948
-    },
-    {
-        "id_cliente": 102,
-        "nome_cliente": "Maria",
-        "endereco_cliente":"rua unisinos 415",
-        "email_cliente":"maria@gmail.com",
-        "telefone_cliente": 51986335476
-    }],
-
+      "id_cliente": 102,
+      "nome_cliente": "Maria",
+      "endereco_cliente": "rua unisinos 415",
+      "email_cliente": "maria@gmail.com",
+      "telefone_cliente": 51986335476
+    }
     
-        
-      
-
-
-
-    "Medicamento": [{
-        "id_medicamento": 200,
-        "nome_medicamento": "Paracetamol",
-        "fabricante_medicamento":"TEUTO",
-        "preco_medicamento":29.99
+  ],
+  "Medicamento": [
+    {
+      "id_medicamento": 200,
+      "nome_medicamento": "Paracetamol",
+      "fabricante_medicamento": "TEUTO",
+      "preco_medicamento": 29.99
     },
     {
-        "id_medicamento": 201,
-        "nome_medicamento": "Dipirona",
-        "fabricante_medicamento":"EMS",
-        "preco_medicamento":19.99
+      "id_medicamento": 201,
+      "nome_medicamento": "Dipirona",
+      "fabricante_medicamento": "EMS",
+      "preco_medicamento": 19.99
+    }
+  ],
+  "Fornecedor": [
+    {
+      "id_fornecedor": 300,
+      "nome_fornecedor": "GerMed",
+      "endereco_fornecedor": " Av. Theodomiro, 1309 - Cristo Rei, São Leopoldo",
+      "telefone_fornecedor": 5135720208
     },
     {
-        "id_medicamento": 202,
-        "nome_medicamento": "Dorflex",
-        "fabricante_medicamento":"GERMED",
-        "preco_medicamento":9.99
-
-    }],
-
-    
-        
-
-
-        "Fornecedor": [{
-            "id_fornecedor": 300,
-            "nome_fornecedor": "GerMed",
-            "endereco_fornecedor":" Av. Theodomiro, 1309 - Cristo Rei, São Leopoldo",
-            "telefone_fornecedor": 5135720208
-        },
-        {
-            "id_fornecedor": 301,
-            "nome_fornecedor": "CiaMed",
-            "endereco_fornecedor":"Av. Mauá, 3571 - Santa Teresa, São Leopoldo",
-            "telefone_fornecedor": 5135685520
-        },
-        {
-            "id_fornecedor": 302,
-            "nome_fornecedor": "NaturalMed",
-            "endereco_fornecedor":" Av. Mauá, 3563 - Duque de Caxias, São Leopoldo",
-            "telefone_fornecedor": 5130372828
-            }],
-
-            
-            
-
-
-
-            "Venda": [{
-                "id_venda": 400,
-                "id_medicamento": 200,
-                "id_cliente":100,
-                "data_venda": "20/07/2023"
-            },
-            {
-                "id_venda": 401,
-                "id_medicamento": 201,
-                "id_cliente": 101,
-                "data_venda": "19/07/2023"
-            },
-            {
-                "id_venda": 402,
-                "id_medicamento": 202,
-                "id_cliente":102,
-                "data_venda": "18/07/2023"
-                }],
-
-                    
-
-
-
-                "Vendedor": [{
-                    "id_vendedor": 500,
-                    "nome_vendedor": "Camila",
-                    "endereco_vendedor":"Rua são Joaquim- Centro- SL",
-                    "telefone_vendedor": 5196452927
-                },
-                {
-                    "id_vendedor": 501,
-                    "nome_vendedor": "Paulo",
-                    "endereco_vendedor":"Rua independencia 1515- Centro-SL",
-                    "telefone_vendedor": 51977851445
-                },
-            {
-                "id_vendedor": 400,
-                "nome_vendedor": "Pedro",
-                "endereco_vendedor":"Rua Marques 1229- Centro-SL",
-                "telefone_vendedor": 51989547612
-                }],
-
-                   
-
-
-
-                "Farmacia": [{
-                    "id_farmacia": 600,
-                    "nome_farmacia": "MedCenter",
-                    "endereco_farmacia":"Rua José Bonifácio 145- Cnetro -SL",
-                    "telefone_farmacia": 5196452927
-                },
-                {
-                    "id_farmacia": 601,
-                    "nome_farmacia": "AquiMed",
-                    "endereco_farmacia":"Rua São Francisco 486- Centro- SL",
-                    "telefone_farmacia": 5196452927
-                },
-                {
-                    "id_farmacia": 602,
-                    "nome_farmacia": "DorMed",
-                    "endereco_farmacia":"Rua São Paulo 789- Cnetro- SL",
-                    "telefone_farmacia": 5196452927
-                }]
+      "id_fornecedor": 302,
+      "nome_fornecedor": "NaturalMed",
+      "endereco_fornecedor": " Av. Mauá, 3563 - Duque de Caxias, São Leopoldo",
+      "telefone_fornecedor": 5130372828
+    }
+  ],
+  "Venda": [
+    {
+      "id_venda": 401,
+      "id_medicamento": 201,
+      "id_cliente": 101,
+      "data_venda": "19/07/2023"
+    },
+    {
+      "id_venda": 402,
+      "id_medicamento": 202,
+      "id_cliente": 102,
+      "data_venda": "18/07/2023"
+    }
+  ],
+  "Vendedor": [
+    {
+      "id_vendedor": 500,
+      "nome_vendedor": "Camila",
+      "endereco_vendedor": "Rua são Joaquim- Centro- SL",
+      "telefone_vendedor": 5196452927
+    },
+    {
+      "id_vendedor": 501,
+      "nome_vendedor": "Paulo",
+      "endereco_vendedor": "Rua independencia 1515- Centro-SL",
+      "telefone_vendedor": 51977851445
+    }
+  ],
+  "farmacia": [
+    {
+      "id_farmacia": 600,
+      "nome_farmacia": "MedCenter",
+      "endereco_farmacia": "Rua José Bonifácio 145- Cnetro -SL",
+      "telefone_farmacia": 5196452927
+    },
+    {
+      "id_farmacia": 602,
+      "nome_farmacia": "DorMed",
+      "endereco_farmacia": "Rua São Paulo 789- Centro- SL",
+      "telefone_farmacia": 5196452927
+    }
+  ]
 }
-
-    
-    
-    
-  
-                                    
-
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
